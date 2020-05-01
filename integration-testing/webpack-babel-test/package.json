@@ -16,9 +16,13 @@
     "handlebars-loader": "^1.7.1",
     "nyc": "^14.1.1",
     "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.7"
+    "webpack-cli": "^3.3.7",
+    "snyk": "^1.316.1"
   },
   "scripts": {
-    "build": "webpack --config webpack.config.js"
-  }
+    "build": "webpack --config webpack.config.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
