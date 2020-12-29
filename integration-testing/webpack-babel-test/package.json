@@ -15,7 +15,7 @@
     "handlebars": "file:../..",
     "handlebars-loader": "^1.7.1",
     "nyc": "^14.1.1",
-    "webpack": "^4.39.3",
+    "webpack": "^5.0.0",
     "webpack-cli": "^3.3.7"
   },
   "scripts": {
